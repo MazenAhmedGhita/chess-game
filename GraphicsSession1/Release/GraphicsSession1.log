@@ -1,0 +1,10 @@
+﻿  Main.cpp
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\CC212SGL.h(25,19): warning C4091: '__declspec(dllimport)': ignored on left of 'COLORS' when no variable is declared
+  (compiling source file 'Main.cpp')
+  
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(26,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(26,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(29,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(29,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(33,7): error C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Users\ahmed\Downloads\GraphicsSession1\GraphicsSession1\GraphicsSession1\Main.cpp(35,13): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.

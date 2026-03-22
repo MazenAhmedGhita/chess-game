@@ -1,0 +1,23 @@
+﻿  chess.cpp
+  Main.cpp
+D:\GL_C\GraphicsSession1\GraphicsSession1\CC212SGL.h(25,19): warning C4091: '__declspec(dllimport)': ignored on left of 'COLORS' when no variable is declared
+  (compiling source file 'Main.cpp')
+  
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl CC212SGL::CC212SGL(void)" (__imp_??0CC212SGL@@QEAA@XZ) referenced in function "void __cdecl `dynamic initializer for 'gr''(void)" (??__Egr@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::setup(void)" (__imp_?setup@CC212SGL@@QEAAXXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned long __cdecl CC212SGL::generateFromRGB(int,int,int)" (__imp_?generateFromRGB@CC212SGL@@QEAAKHHH@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::setDrawingColor(unsigned long)" (__imp_?setDrawingColor@CC212SGL@@QEAAXK@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::beginDraw(void)" (__imp_?beginDraw@CC212SGL@@QEAAXXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::endDraw(void)" (__imp_?endDraw@CC212SGL@@QEAAXXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::drawSolidRectangle(int,int,int,int)" (__imp_?drawSolidRectangle@CC212SGL@@QEAAXHHHH@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl CC212SGL::drawImage(int,int,int,unsigned long)" (__imp_?drawImage@CC212SGL@@QEAA_NHHHK@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl CC212SGL::loadImage(char const *)" (__imp_?loadImage@CC212SGL@@QEAAHPEBD@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::resizeImage(int,int,int)" (__imp_?resizeImage@CC212SGL@@QEAAXHHH@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl CC212SGL::getWindowWidth(void)" (__imp_?getWindowWidth@CC212SGL@@QEAAHXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl CC212SGL::getWindowHeight(void)" (__imp_?getWindowHeight@CC212SGL@@QEAAHXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::showCursor(void)" (__imp_?showCursor@CC212SGL@@QEAAXXZ) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl CC212SGL::setFullScreenMode(void)" (__imp_?setFullScreenMode@CC212SGL@@QEAAXXZ) referenced in function main
+freeimage.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+CC212SGL.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\GL_C\GraphicsSession1\x64\Debug\GraphicsSession1.exe : fatal error LNK1120: 14 unresolved externals

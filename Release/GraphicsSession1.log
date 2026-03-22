@@ -1,0 +1,8 @@
+﻿  chess.cpp
+D:\GL_C\GraphicsSession1\GraphicsSession1\CC212SGL.h(25,19): warning C4091: '__declspec(dllimport)': ignored on left of 'COLORS' when no variable is declared
+  (compiling source file 'chess.cpp')
+  
+D:\GL_C\GraphicsSession1\GraphicsSession1\chess.cpp(476,65): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\GL_C\GraphicsSession1\GraphicsSession1\chess.cpp(485,7): error C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+D:\GL_C\GraphicsSession1\GraphicsSession1\chess.cpp(486,13): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Main.cpp
